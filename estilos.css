@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.contenedor{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    place-items: center;
+    border: 1px solid black;
+    margin-left: 250px;
+
+}
+
+.caja{
+    width: 200px;
+    height: 200px;
+    background: rgb(109, 23, 23);
+    display: flex;
+    place-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.btn,.btn2{
+    cursor: pointer;
+    border: none;
+    border-radius: 12px;
+    padding: 5px;
+    margin-bottom: 12px;
+}
+
+
+.blue{
+    background: rgb(38, 78, 169);   
+}
